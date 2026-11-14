@@ -2,7 +2,7 @@ from itertools import combinations
 
 def weighted_h_star_order_polytope(P, weight):
     """
-    Computes the weighted h-star vector of the order polytope O(P) of a poset P with respect to a polynomial weight. 
+    Computes the weighted h-star polynomial of the order polytope O(P) of a poset P with respect to a polynomial weight. 
 
     Note that for weighted Ehrhart series, the computation depends on the correspondence between the variables of the polynomial weight and the coordinates of the ambient space. This function assumes that the ith variable of the parent polynomial ring R of the weight, which can be accessed as the ith element of the tuple yielded by R.gens(), corresponds to the ith coordinate (1-indexed) of the ambient space.
 
